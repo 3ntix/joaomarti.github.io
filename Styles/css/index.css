@@ -1,7 +1,7 @@
 :root {
   --color-text-primary: #2c3637;
   --color-text-secondary: #fff;
-  --color-primary: #0060b0;
+  --color-primary: #005498a8;
 }
 
 /* styles reset */
@@ -135,6 +135,7 @@ h2 {
   display: flex;
   text-align: center;
   margin: 15px;
+  padding: 30px;
 }
 
 @media (min-width: 992px) {
@@ -151,6 +152,7 @@ h2 {
   background-color: var(--color-text-primary);
   padding: 50px;
   text-align: center;
+  justify-content: center;
 }
 
 .social-item {
