@@ -4,15 +4,145 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Martin's Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/css/index.css" />
+    <title>Entix's Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>
-        Hi, my name is Martin <br />
-        A Full Stack Developer
-      </h1>
-      <a href="">Discover my alter ego</a>
+    <header class="header">
+      <div class="header-content">
+        <h1 class="header-title">
+          Hey there,<br />
+          I'm <span>Entix</span>! <br />
+          <br />
+          A Full Stack Developer
+          <!--Imitar site da QVAN para pôr mais informação-->
+        </h1>
+        <a href="#about" class="button button-primary">Find out more</a>
+      </div>
     </header>
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img
+          src="assets/img/entix.jpg"
+          alt="profile picture entix"
+          class="about-img"
+        />
+        <div class="about-description">
+          <p>
+            You might be thinking to yourself 'what an interesting name'. Well,
+            actually my name is João Martinho and I'm a 26 year old
+            <strong>marketeer/photographer/designer</strong> turned
+            <strong>developer</strong> from Lisbon, Portugal.
+          </p>
+          <br />
+          <p>
+            Entix is this persona I created that allows me to have more freedom
+            and creativity when working online. It gives me that edge that
+            otherwise I'm afraid João couldn't achieve.
+          </p>
+          <p>
+            <br />
+            The name ENTIX comes from the word 'antics'. It's just the same word
+            but as I interpreted it phonetically back when I started learning
+            English. Nowadays, I use the name to turn every project and
+            endeavour into an ENTIX project - fun and twisted in a creative and
+            light-hearted way.
+          </p>
+          <br />
+          <a
+            href="assets/pdfs/CV Joao Martinho (EN).pdf"
+            class="button button-secondary"
+            >View CV</a
+          >
+        </div>
+        <br />
+        <div class="about-quote">
+          <blockquote>
+            <i
+              >I'm not a jack of all trades; I'm a master of many. I don't feel
+              there is anything I can't do if I want to.</i
+            >
+          </blockquote>
+          <cite>Evel Knievel</cite>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <h2>Projects</h2>
+      <article class="projects-article">
+        <div>
+          <h3></h3>
+          <p>
+            The term originally referred to messages sent using the Short
+            Message Service (SMS).
+          </p>
+          <a href="" class="button button-primary">Source Code</a>
+          <a href="" class="button button-tertiary">View Project</a>
+        </div>
+        <img src="./assets/img/project1.webp" alt="project" width="600" />
+      </article>
+      <article class="projects-article">
+        <div>
+          <h3>Project Title</h3>
+          <p>
+            The term originally referred to messages sent using the Short
+            Message Service (SMS).
+          </p>
+          <a href="" class="button button-primary">Source Code</a>
+          <a href="" class="button button-tertiary">View Project</a>
+        </div>
+        <img src="./assets/img/project1.webp" alt="project" width="600" />
+      </article>
+      <article class="projects-article">
+        <div>
+          <h3>Project Title</h3>
+          <p>
+            The term originally referred to messages sent using the Short
+            Message Service (SMS).
+          </p>
+          <a href="" class="button button-primary">Source Code</a>
+          <a href="" class="button button-tertiary">View Project</a>
+        </div>
+        <img src="./assets/img/project1.webp" alt="project" width="600" />
+      </article>
+    </section>
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>
+        Hit me up if you'd like a quote or have an idea you'd like made happen.
+      </p>
+      <a href="mailto:joao.rcsmartinho@gmail.com">Let's talk</a>
+    </section>
+    <footer class="footer">
+      <ul>
+        <li class="social-item">
+          <a href="https://github.com/joaomarti" class="social-link github"></a>
+        </li>
+        <li class="social-item">
+          <a
+            href="https://www.linkedin.com/in/joaormartinho/"
+            class="social-link linkedin"
+          ></a>
+        </li>
+        <li class="social-item">
+          <a
+            href="https://www.behance.net/Joaormartinho"
+            class="social-link behance"
+          ></a>
+        </li>
+        <li class="social-item">
+          <a
+            href="https://www.instagram.com/joaormar/"
+            class="social-link instagram"
+          ></a>
+        </li>
+      </ul>
+      <p>@2022 - Portfolio Design by João Martinho</p>
+    </footer>
   </body>
 </html>
