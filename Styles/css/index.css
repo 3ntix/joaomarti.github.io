@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Error: expected more input.
  *   ,
  * 1 | @import
@@ -5,6 +6,13 @@
  *   '
  *   styles/scss/_variables.scss 1:8  @import
  *   styles/scss/index.scss 1:9       root stylesheet */
+=======
+:root {
+  --color-text-primary: #2c3637;
+  --color-text-secondary: #fff;
+  --color-primary: #005498a8;
+}
+>>>>>>> parent of 7c9cc0c (install sass and add package.json)
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
