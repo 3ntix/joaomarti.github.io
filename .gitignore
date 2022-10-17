@@ -1,0 +1,6 @@
+#add node modules
+node_modules/
+
+
+#ignore package-lock
+package-lock.json/

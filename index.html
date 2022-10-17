@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/css/index.css" />
+    <script src="script.js"></script>
     <title>Entix's Portfolio</title>
   </head>
   <body>
@@ -19,7 +20,24 @@
           I'm <span>Entix</span>! <br />
           <br />
           A Full Stack Developer
-          <!--Imitar site da QVAN para pôr mais informação-->
+          <!--1-->
+          <div class="typed-headline" style="margin-bottom: 0px">
+            <span
+              class="h1 inline-block typed-text typed-text--cursor clr_xtr"
+              data-typed-strings="<b>A Graphic Designer</b><b>A Marketeer</b><b>An amateur Photographer</b><b>Your personal handyman</b>"
+            ></span>
+          </div>
+          <!--1-->
+          <!--2-->
+          <div class="typewriter">
+            <h1>
+              <b>A Graphic Designer</b>
+              <b>A Marketeer</b>
+              <b>An amateur Photographer</b>
+              <b>Your personal handy-man</b>
+            </h1>
+          </div>
+          <!--2-->
         </h1>
         <a href="#about" class="button button-primary">Find out more</a>
       </div>
@@ -36,7 +54,7 @@
           <p>
             You might be thinking to yourself 'what an interesting name'. Well,
             actually my name is João Martinho and I'm a 26 year old
-            <strong>marketeer/photographer/designer</strong> turned
+            <strong>marketeer / photographer / designer</strong> turned
             <strong>developer</strong> from Lisbon, Portugal.
           </p>
           <br />
@@ -57,6 +75,7 @@
           <a
             href="assets/pdfs/CV Joao Martinho (EN).pdf"
             class="button button-secondary"
+            target="_blank"
             >View CV</a
           >
         </div>
@@ -64,8 +83,8 @@
         <div class="about-quote">
           <blockquote>
             <i
-              >I'm not a jack of all trades; I'm a master of many. I don't feel
-              there is anything I can't do if I want to.</i
+              >"I'm not a jack of all trades; I'm a master of many. I don't feel
+              there is anything I can't do if I want to."</i
             >
           </blockquote>
           <cite>Evel Knievel</cite>
@@ -76,13 +95,17 @@
       <h2>Projects</h2>
       <article class="projects-article">
         <div>
-          <h3></h3>
+          <h3>Project Title</h3>
           <p>
             The term originally referred to messages sent using the Short
             Message Service (SMS).
           </p>
-          <a href="" class="button button-primary">Source Code</a>
-          <a href="" class="button button-tertiary">View Project</a>
+          <a href="" class="button button-primary" target="_blank"
+            >Source Code</a
+          >
+          <a href="" class="button button-tertiary" target="_blank"
+            >View Project</a
+          >
         </div>
         <img src="./assets/img/project1.webp" alt="project" width="600" />
       </article>
@@ -93,8 +116,12 @@
             The term originally referred to messages sent using the Short
             Message Service (SMS).
           </p>
-          <a href="" class="button button-primary">Source Code</a>
-          <a href="" class="button button-tertiary">View Project</a>
+          <a href="" class="button button-primary" target="_blank"
+            >Source Code</a
+          >
+          <a href="" class="button button-tertiary" target="_blank"
+            >View Project</a
+          >
         </div>
         <img src="./assets/img/project1.webp" alt="project" width="600" />
       </article>
@@ -105,8 +132,12 @@
             The term originally referred to messages sent using the Short
             Message Service (SMS).
           </p>
-          <a href="" class="button button-primary">Source Code</a>
-          <a href="" class="button button-tertiary">View Project</a>
+          <a href="" class="button button-primary" target="_blank"
+            >Source Code</a
+          >
+          <a href="" class="button button-tertiary" target="_blank"
+            >View Project</a
+          >
         </div>
         <img src="./assets/img/project1.webp" alt="project" width="600" />
       </article>
@@ -121,28 +152,37 @@
     <footer class="footer">
       <ul>
         <li class="social-item">
-          <a href="https://github.com/joaomarti" class="social-link github"></a>
+          <a
+            href="https://github.com/joaomarti"
+            class="social-link github"
+            target="_blank"
+          ></a>
         </li>
         <li class="social-item">
           <a
             href="https://www.linkedin.com/in/joaormartinho/"
             class="social-link linkedin"
+            target="_blank"
           ></a>
         </li>
         <li class="social-item">
           <a
             href="https://www.behance.net/Joaormartinho"
             class="social-link behance"
+            target="_blank"
           ></a>
         </li>
         <li class="social-item">
           <a
             href="https://www.instagram.com/joaormar/"
             class="social-link instagram"
+            target="_blank"
           ></a>
         </li>
       </ul>
-      <p>@2022 - Portfolio Design by João Martinho</p>
+      <p class="copywrite">
+        @2022 - Portfolio Design by João Martinho a.k.a. <strong>Entix</strong>
+      </p>
     </footer>
   </body>
 </html>
