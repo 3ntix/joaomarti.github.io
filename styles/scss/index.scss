@@ -8,6 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  color: $color-text-primary;
   margin: 0;
 }
 
@@ -44,6 +45,10 @@ h2 {
   line-height: 1.4;
   color: $color-text-primary;
 
+  .header-name {
+    color: $color-primary;
+  }
+
   .typewriter h1 {
     font-size: 48px;
     overflow: hidden;
@@ -74,19 +79,15 @@ h2 {
       border-color: $color-primary;
     }
   }
-
-  .span {
-    color: $color-primary;
-  }
 }
 
 .about {
   position: flex;
-  padding: 30px 0 120px;
+  padding: 30px 0 130px;
   color: $color-secondary;
   background-color: $color-primary;
   clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 100%);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
   .about-content {
     @media (min-width: 992px) {
@@ -99,6 +100,7 @@ h2 {
       width: 100%;
       max-width: 400px;
       max-height: 500px;
+      border-radius: 100%;
     }
 
     .about-description {
@@ -108,16 +110,16 @@ h2 {
       text-align: justify;
 
       .button-secondary {
-        margin-left: 40%;
-        margin-right: 40%;
+        margin-left: 50px;
+        margin-right: 50px;
         min-width: 40px;
       }
     }
 
     .about-quote {
-      display: block;
+      display: flex;
       text-align: center;
-      margin-top: 15px;
+      margin-top: 600px;
       padding: 10px;
     }
   }
@@ -138,21 +140,24 @@ h2 {
     max-width: 960px;
     margin: 0 auto;
   }
-}
 
-.projects-img {
-  width: 100%;
-  max-width: 495px;
-  border-radius: 5px;
+  .project-img {
+    max-height: 400px;
+    max-width: 400px;
+    padding: 20px;
+  }
 }
-
 .contact {
   color: $color-secondary;
   background-color: $color-primary;
-  padding: 60px;
+  padding: 85px;
   text-align: center;
   justify-content: center;
   clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
+
+  .contact-text {
+    padding: 20px;
+  }
 }
 .footer {
   color: $color-secondary;
@@ -192,7 +197,7 @@ h2 {
   background-image: url(../../assets/icons/icon-Instagram.png);
 }
 
-.copywrite {
+.copyright {
   margin-top: 20px;
   justify-content: center;
   display: flex;
