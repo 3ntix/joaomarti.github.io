@@ -63,12 +63,11 @@ h2 {
   }
 }
 .about {
-  position: relative;
-  padding: 30px 0 130px;
+  padding: 30px 0 120px;
   color: $color-secondary;
   background-color: $color-primary;
   clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 100%);
-  margin-bottom: 40px;
+  text-align: center;
 
   .about-content {
     @media (min-width: 992px) {
@@ -78,31 +77,29 @@ h2 {
     }
 
     .about-img {
+      height: 100%;
       width: 100%;
-      margin-left: 200px;
-      max-width: 350px;
-      max-height: 450px;
+      margin-left: 5%;
+      max-width: 25%;
+      max-height: 30%;
       border-radius: 6px;
     }
 
     .about-description {
       margin-left: 30px;
-      width: 100%;
+      margin-right: 30px;
       text-align: justify;
+    }
+    .CV {
+      margin-top: 28%;
+      margin-right: 0%;
 
       .button-secondary {
-        margin-left: 130px;
-        min-width: 40px;
+        min-width: 100px;
       }
     }
 
     .about-quote {
-      position: relative;
-      top: 90px;
-      right: 37%;
-      text-align: center;
-      margin-top: 400px;
-      min-width: 500px;
       padding: 10px;
     }
   }
@@ -135,6 +132,7 @@ h2 {
   color: $color-secondary;
   background-color: $color-primary;
   padding: 80px;
+  margin-bottom: -10px;
   text-align: center;
   justify-content: center;
   clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
