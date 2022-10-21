@@ -1,3 +1,4 @@
+/* colors */ /* buttons */
 .button {
   display: inline-block;
   font-size: 14px;
@@ -44,7 +45,6 @@
 }
 
 /* end of buttons */
-/* styles reset */
 * {
   box-sizing: border-box;
 }
