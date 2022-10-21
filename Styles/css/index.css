@@ -126,8 +126,9 @@ h2 {
   border-radius: 6px;
 }
 .about .about-content .about-description {
-  margin-left: 30px;
-  margin-right: 350px;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 2%;
   text-align: justify;
 }
 .about .CV {
@@ -228,5 +229,3 @@ h2 {
 }
 
 /*# sourceMappingURL=index.css.map */
-
-/*João Martinho*/
